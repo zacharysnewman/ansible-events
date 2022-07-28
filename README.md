@@ -34,6 +34,10 @@ Namespace for getting and consuming events:
 Subscribe to an event:
     
     Ansible.Get<MyEvent>().Subscribe(SomeMethod);
+    
+Unsubscribe from an event:
+
+    Ansible.Get<MyEvent>().Unsubscribe(SomeMethod);
 
 Publish to an event:
     
