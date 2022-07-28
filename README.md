@@ -42,3 +42,32 @@ Unsubscribe from an event:
 Publish to an event:
     
     Ansible.Get<MyEvent>().Publish(SomeValue);
+
+## Example
+
+Consuming within a MonoBehaviour:
+
+    private void OnEnable()
+    {
+        Ansible.Get<MyEvent>().Subscribe(OnMyEvent);
+    }
+    
+    private void OnDisable()
+    {
+        Ansible.Get<MyEvent>().Unsubscribe(OnMyEvent);    
+    }
+    
+    private void OnMyEvent()
+    {
+        Debug.Log("MyEvent was Published");
+    }
+
+Publishing within a MonoBehaviour:
+
+    private void Update()
+    {
+        if(Time.frameCount % 60 == 0)
+        {
+            Ansible.Get<MyEvent>().Publish();
+        }
+    }
