@@ -7,6 +7,8 @@ There are 3 different types of events included:
     AnsibleEventAsync
     AnsibleEventCoroutine
 
+## Defining Custom Events
+
 Namespace for defining events:
 
     using AnsibleEvents.Events;
@@ -22,6 +24,8 @@ AnsibleEventSync and AnsibleEventAsync events can also be defined with 1-4 param
 AnsibleEventCoroutine events can't be defined with parameters because coroutine methods can't receive arguments:
 
     public class MyCoroutineEvent : AnsibleEventCoroutine {}
+
+## Consuming Events
 
 Namespace for getting and consuming events:
 
