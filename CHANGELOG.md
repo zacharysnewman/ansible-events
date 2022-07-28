@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/zacharysnewman/ansible-events/compare/v1.0.1...v1.0.2) (2022-07-28)
+
+
+### Bug Fixes
+
+* **assembly:** updated assembly definition ([9f06dcc](https://github.com/zacharysnewman/ansible-events/commit/9f06dccf37556642e838503bf0451174189dd7be))
+
 ## [1.0.1](https://github.com/zacharysnewman/ansible-events/compare/v1.0.0...v1.0.1) (2022-07-28)
 
 
