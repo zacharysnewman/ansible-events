@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/zacharysnewman/ansible-events/compare/v1.0.2...v1.0.3) (2022-07-28)
+
+
+### Bug Fixes
+
+* **meta:** fix guid issue from copying meta files ([fde83b7](https://github.com/zacharysnewman/ansible-events/commit/fde83b773345dbfbcc0f1becb6bdbf0c89a564cf))
+
 ## [1.0.2](https://github.com/zacharysnewman/ansible-events/compare/v1.0.1...v1.0.2) (2022-07-28)
 
 
