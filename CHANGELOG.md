@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/zacharysnewman/ansible-events/compare/v1.0.3...v1.0.4) (2022-07-28)
+
+
+### Bug Fixes
+
+* **meta:** fix other guids so they don't conflict with shaper package ([48708d0](https://github.com/zacharysnewman/ansible-events/commit/48708d0a5b50fb362ce5ea70ba9bf6d222df5bc3))
+
 ## [1.0.3](https://github.com/zacharysnewman/ansible-events/compare/v1.0.2...v1.0.3) (2022-07-28)
 
 
