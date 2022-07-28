@@ -39,7 +39,7 @@ Unsubscribe from an event:
 
     Ansible.Get<MyEvent>().Unsubscribe(SomeMethod);
 
-Publish to an event:
+Publish an event:
     
     Ansible.Get<MyEvent>().Publish(SomeValue);
 
