@@ -11,6 +11,7 @@ Defining an event:
     
     using AnsibleEvents.Events;
 
+
     public class MySyncEventWithNoParameters : AnsibleEventSync {}
 
 AnsibleEventSync and AnsibleEventAsync events can also be defined with 1-4 parameters:
