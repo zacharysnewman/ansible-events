@@ -8,6 +8,7 @@ There are 3 different types of events included:
     AnsibleEventCoroutine
 
 Defining an event:
+    
     using AnsibleEvents.Events;
 
     public class MySyncEventWithNoParameters : AnsibleEventSync {}
@@ -19,11 +20,13 @@ AnsibleEventCoroutine events can't be defined with parameters because coroutine 
     public class MyCoroutineEvent : AnsibleEventCoroutine {}
 
 Subscribe to an event:
+    
     using AnsibleEvents;
 
     Ansible.Get<MyEvent>().Subscribe(SomeMethod);
 
 Publish to an event:
+    
     using AnsibleEvents;
 
     Ansible.Get<MyEvent>().Publish(SomeValue);
