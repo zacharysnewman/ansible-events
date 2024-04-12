@@ -2,7 +2,7 @@ namespace AnsibleEvents.Events.Base
 {
     public class AnsibleEventBase
     {
-        private bool paused = false;
+        internal bool paused = false;
 
         public void Pause()
         {
