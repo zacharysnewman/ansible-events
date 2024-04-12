@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/zacharysnewman/ansible-events/compare/v1.0.4...v1.0.5) (2024-04-12)
+
+
+### Bug Fixes
+
+* Trigger version bump ([9c7b83d](https://github.com/zacharysnewman/ansible-events/commit/9c7b83d6edf7a299c33ed60c88e7564f37c09a5b))
+
 ## [1.0.4](https://github.com/zacharysnewman/ansible-events/compare/v1.0.3...v1.0.4) (2022-07-28)
 
 
